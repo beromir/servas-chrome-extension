@@ -17,7 +17,7 @@ Add the current website to your [Servas](https://github.com/beromir/servas) inst
 - Add the API token.
 - Click on `Save settings`.
 
-### Development
+## Development
 
 ```shell
 npm install
@@ -27,7 +27,7 @@ npm install
 npm run watch
 ```
 
-### Generate extension files
+## Generate extension files
 
 ```shell
 npm run prod
