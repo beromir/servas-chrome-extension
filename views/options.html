@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <title>Servas options</title>
+    <link rel="stylesheet" href="assets/css/app.css"/>
+</head>
+<body class="py-6 px-8">
+
+<div class="space-y-4">
+    <div>
+        <label for="servas-url" class="block text-sm font-medium text-gray-800">Servas URL</label>
+        <div class="mt-1">
+            <input type="url" name="servas-url" id="servas-url"
+                   class="shadow-sm focus:ring-gray-500 focus:border-gray-500 block w-full sm:text-sm border-gray-400 rounded-md"
+                   placeholder="https://myservas.com">
+        </div>
+    </div>
+
+    <div>
+        <label for="api-token" class="block text-sm font-medium text-gray-800">API Token</label>
+        <div class="mt-1">
+            <input type="password" name="api-token" id="api-token"
+                   class="shadow-sm focus:ring-gray-500 focus:border-gray-500 block w-full sm:text-sm border-gray-400 rounded-md">
+        </div>
+    </div>
+</div>
+
+<div class="mt-6 flex justify-end">
+    <p id="status" class="mr-3 h-full inline-flex items-center text-green-600 text-sm"></p>
+
+    <button id="save-options" type="button"
+            class="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-gray-600 hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500">
+        Save settings
+    </button>
+</div>
+
+<script type="text/javascript" src="assets/js/options.js"></script>
+</body>
+</html>

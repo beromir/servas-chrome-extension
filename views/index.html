@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+    <title>Servas browser extension</title>
+    <link rel="stylesheet" href="assets/css/app.css"/>
+</head>
+<body class="p-2 w-48 bg-slate-700 border-slate-400 border-2">
+
+<h1 class="text-center text-slate-50 text-xl font-semibold">Servas</h1>
+
+<div class="mt-3 flex justify-center">
+    <button id="add-link-btn" type="button" title="Add current site to Servas"
+            class="p-3 text-slate-50 rounded-full bg-slate-600 hover:bg-slate-500">
+        <svg class="w-12 h-12" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+             stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m8-8H4"/>
+        </svg>
+    </button>
+</div>
+
+<p id="response-message" class="hidden block mt-2.5 text-sm text-center">The link was added!</p>
+
+<div class="mt-8 flex justify-center">
+    <button id="options-btn" class="text-slate-100 text-sm">Settings</button>
+</div>
+
+<script type="text/javascript" src="assets/js/app.js"></script>
+</body>
+</html>
