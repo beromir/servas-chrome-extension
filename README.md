@@ -1,5 +1,7 @@
 # Servas Chrome Extension
 
+**This version is no longer available. See the new extension [here](https://github.com/beromir/servas-extension).**
+
 Add the current website to your [Servas](https://github.com/beromir/servas) instance directly from the browser.
 
 ## Installation
